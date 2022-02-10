@@ -184,11 +184,11 @@ div.per>p{
 div#tabla_scroll{
     margin: auto;
     overflow-x:scroll;
-    width: 100%;
+    width: 80%;
 }
 
 table{
-    width: 80%;
+    width: 100%;
     height: 500px;
     margin: auto;
     background-color: #fcce00;
