@@ -1,0 +1,257 @@
+
+@font-face {
+    font-family: 'compactaroman';
+    src: url('../fonts/compacta/compactabt-webfont.woff2') format('woff2'),
+         url('../fonts/compacta/compactabt-webfont.woff') format('woff');
+}
+
+body{
+    background-image: url('../img/backgrounds/metal_background.jpg');
+    background-repeat:repeat ;
+    font-size:1.5rem;
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+    margin: 0px;
+
+}
+
+header{
+    padding-top: 0px;
+    background-color: black;
+    width: 100%;
+    border-bottom: dashed rgb(141, 0, 24);
+    font-family: 'compactaroman';
+    letter-spacing: 2px;
+    color: #fcce00;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.582);
+    padding-bottom: 100px;
+}
+
+footer{
+    padding-bottom: 13px;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+footer h2{
+    margin: 5px
+}
+
+nav{
+    min-width: 20%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#registro{
+    min-width: 25%;
+    margin: 10px;
+    font-size: 2rem;
+    margin: auto;
+    
+}
+
+form{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form div{
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+        width: 60%;
+        color: rgb(124, 6, 26);
+        background-color: #fcce00;
+        text-align:right;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color: rgb(124, 6, 26);
+    background-color: #fcce00;
+}
+
+nav a{
+    margin: 25px;    
+    color: #fcce00;
+    text-decoration:none ;
+}
+
+#logo{
+    min-width: 15%;
+    max-width: 25%;
+    margin: 5px;
+}
+
+#logo>a img{
+    width: 100%;
+    text-align: center;
+
+}
+
+h1{
+    margin-top: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'compactaroman';
+    color: #fcce00;
+    letter-spacing: 3px;
+    font-size: 4.2em;
+}
+
+h2{
+    text-align: center;
+    font-family: 'compactaroman';
+    color: #fcce00;
+    letter-spacing: 3px;
+    font-size: 3.5em; 
+}
+
+h3{
+    text-align: center;
+    font-family: 'compactaroman';
+    color: #fcce00;
+    font-size: 3em; 
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+a{
+    color: #fcce00;
+}
+
+section#personajes{
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: black;
+    border: 2px #fcce00 solid;
+    border-radius: 3%;
+    
+}
+
+div.per{
+    display: inline-block;
+    width: 16%;
+    min-width: 200px;
+}
+
+div.per>img{
+    width: 100%;
+    height: 500px;
+    min-width: 75%;
+    object-fit: contain;
+    margin: 5px;
+}
+
+div.per>p{
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    color: #fcce00;
+    text-align: center;
+    margin: 5px;
+    font-family: 'compactaroman';
+    letter-spacing: 2px;
+}
+
+div#tabla_scroll{
+    margin: auto;
+    overflow-x:scroll;
+    width: 100%;
+}
+
+table{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: #fcce00;
+    text-align: center
+}
+
+tbody img.armas{
+    width: 100%;
+    height: 100%;
+}
+
+tbody img.guns_logo{
+    width: 100%;
+    height: 75%;
+}
+
+thead{
+    padding: 10px;
+    color: rgb(7, 7, 7);
+    font-size: 2rem;
+}
+
+td{
+    width: 13%;
+    height: 17.5%;
+    padding: 3px;
+    font-family: 'compactaroman';
+    font-size: 2rem;
+}
+
+tbody>tr:nth-child(2n){
+    background-color: rgb(48, 48, 48);
+}
+
+tbody>tr:nth-child(2n+1){
+    background-color: rgb(32, 32, 32);
+}
+
+tbody>tr>td:first-child{
+    background-color: rgb(07, 07, 07);
+}
+
+section#contexto>article p{
+    font-size: 0.5em;
+    text-align: left;
+
+}
+
+div#pers_list{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+figure.fig{
+    width: 25%;
+    text-align: center;
+    float: right;
+}
+figure.fig>img, figure.fig>figcaption{
+    width: 100%;
+    font-size: smaller;
+}
+
+
+
